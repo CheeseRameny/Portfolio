@@ -1,0 +1,181 @@
+body{
+    background-color:rgb(rgb(0, 0, 0), rgb(0, 0, 0), brgb(0, 0, 0);
+    background:
+        url("img/bg-img.jpg") no-repeat;
+    background-size: 100% 800px;
+    
+    background-position: 0px 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    position:relative;
+    max-width:600px;
+    padding:50px;
+    background:rgba(75, 72, 72, 0.7);
+    border-radius:80px;
+    box-shadow : 0 15px 35px black;
+}
+.el{
+    position: 
+    relative;
+    top: 20px;
+    display: inline-block;
+    padding-left: 45px;
+}
+
+.el a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+    ;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: 25px;
+    padding:0 20px;
+}
+
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    transform: 
+    translateX(3.5%);
+    height: 4px;
+    border-radius: 15px;
+    background: white;
+    transition: width .3s;
+}
+
+.link:hover::after{
+    width: 100%;
+}
+
+.header{
+    font-family: 'KoHo', sans-serif;
+    font-size: 300%;
+    position: absolute;
+    left:500px;
+    bottom: 640px;
+    color:white;
+
+}
+#welcome{
+    position: relative;
+    bottom: 400px;
+}
+.top-right{
+    font-size:150%;
+    font-family: 'Fredoka One', cursive;
+    position:absolute;
+    top: 200px;
+    left: 1050px;
+    color:black;
+
+}
+
+#contact-me{
+    position: absolute;
+    left: 1250px;
+}
+.logo-top{
+    position:relative;
+    top: 30px;
+}
+#real-logo{
+    width: 750px;
+
+}
+
+.logo-general{
+    
+    background-image: url("img/logo.jpg");
+    position: relative;
+    left:50px;
+}
+
+/* Gallery SPECIFIC */
+#gallery{
+    position:absolute;
+    left:80px;
+    top:35px;
+}
+.general-box{
+    position: absolute;
+    height: 510px;
+    top: 487.5px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    position:relative;
+    width:1265px;
+    padding:50px;
+    background:rgba(75, 72, 72, 0.7);
+    border-radius:20px;
+    box-shadow : 0 15px 35px black;
+}
+
+
+.button{
+    position: relative;
+    bottom: 850px;
+
+    border:none; outline:none;
+    background:darkgray;
+    padding: 10px 30px;
+    width: 100px;
+    height: 200px;
+
+
+    font-display: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor:pointer;
+    margin: 10px auto;
+
+    
+}
+
+
+.button:hover{
+    background: rgb(105, 105, 105);
+
+}
+#previous{
+    position:relative;
+    right: 75px;
+
+}
+#next{
+    position:relative;
+    left: 1135px;
+}
+.outline{
+
+    height: 20px;
+    width: 365px;
+    background-color: white;
+    padding: 250px 450px;
+    border-style:outset;
+    border-radius: 15px;
+}
+
+.img{
+    object-fit:contain;
+    position: relative;
+    bottom: 500px;
+    left: 510px;
+
+    height: 475px;
+    max-width: 1215px;
+
+
+}
